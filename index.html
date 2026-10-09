@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dicas simples para cuidar da saude e ter uma rotina de estudos mais equilibrada.">
+    <title>Vida de Estudante: Guia de Habitos Saudaveis</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header" id="inicio">
+        <a class="brand" href="#inicio" aria-label="Vida de Estudante, inicio">
+            <span class="brand-mark" aria-hidden="true">v.</span>
+            <span>vida de estudante</span>
+        </a>
+        <nav aria-label="Navegacao principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#teste">Teste de habitos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> Um guia para sua vida real</p>
+                <h1 id="hero-title">Cuide da sua rotina.<br><em>Melhore seus estudos.</em></h1>
+                <p class="hero-description">Estudar bem tambem e saber fazer pausas, descansar e cuidar de voce. Pequenas escolhas, repetidas todos os dias, fazem uma diferenca enorme.</p>
+                <a class="primary-link" href="#dicas">Descubra por onde comecar <span aria-hidden="true">&#8595;</span></a>
+                <div class="hero-note"><span aria-hidden="true">&#10022;</span> Sem rotina perfeita. Um passo de cada vez.</div>
+            </div>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1100&q=85" alt="Caderno aberto e materiais de estudo sobre uma mesa" fetchpriority="high">
+                <div class="image-caption"><span class="caption-icon" aria-hidden="true">&#10003;</span><span>Seu bem-estar tambem<br>faz parte do aprendizado.</span></div>
+                <span class="visual-index" aria-hidden="true">01 / 06</span>
+            </div>
+        </section>
+
+        <section class="tips-section" id="dicas" aria-labelledby="tips-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow"><span></span> O basico que funciona</p>
+                    <h2 id="tips-title">Habitos pequenos,<br><em>mudancas de verdade.</em></h2>
+                </div>
+                <p class="section-intro">Nao precisa mudar tudo hoje. Escolha uma ideia e experimente no seu ritmo.</p>
+            </div>
+            <div class="tips-grid">
+                <article class="tip-card tip-sleep">
+                    <span class="tip-number">01</span><span class="tip-icon" aria-hidden="true">&#9790;</span>
+                    <h3>Proteja seu sono</h3><p>Dormir bem ajuda a memoria e a concentracao. Tente manter horarios parecidos para dormir e acordar.</p>
+                    <span class="tip-tag">DESCANSO</span>
+                </article>
+                <article class="tip-card tip-food">
+                    <span class="tip-number">02</span><span class="tip-icon" aria-hidden="true">&#10047;</span>
+                    <h3>Coma com equilibrio</h3><p>Refeicoes variadas e agua ao longo do dia ajudam a manter a energia para aprender.</p>
+                    <span class="tip-tag">ALIMENTACAO</span>
+                </article>
+                <article class="tip-card tip-study">
+                    <span class="tip-number">03</span><span class="tip-icon" aria-hidden="true">&#9998;</span>
+                    <h3>Estude em blocos</h3><p>Divida o conteudo em partes menores e faca pausas curtas para voltar com a cabeca fresca.</p>
+                    <span class="tip-tag">ESTUDO</span>
+                </article>
+                <article class="tip-card tip-tech">
+                    <span class="tip-number">04</span><span class="tip-icon" aria-hidden="true">&#9788;</span>
+                    <h3>Desconecte um pouco</h3><p>Silencie notificacoes na hora de estudar e deixe o celular de lado antes de dormir.</p>
+                    <span class="tip-tag">TECNOLOGIA</span>
+                </article>
+                <article class="tip-card tip-move">
+                    <span class="tip-number">05</span><span class="tip-icon" aria-hidden="true">&#8599;</span>
+                    <h3>Mexa o corpo</h3><p>Uma caminhada ou alguns minutos de movimento ja podem melhorar sua disposicao.</p>
+                    <span class="tip-tag">MOVIMENTO</span>
+                </article>
+                <article class="tip-card tip-time">
+                    <span class="tip-number">06</span><span class="tip-icon" aria-hidden="true">&#9719;</span>
+                    <h3>Organize seu tempo</h3><p>Anote o que precisa fazer e escolha uma prioridade. Uma lista simples ja ajuda bastante.</p>
+                    <span class="tip-tag">ORGANIZACAO</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="habit-section" id="teste" aria-labelledby="quiz-title">
+            <div class="habit-intro">
+                <p class="eyebrow"><span></span> Um check-in rapidinho</p>
+                <h2 id="quiz-title">Como anda sua<br><em>rotina por ai?</em></h2>
+                <p>Responda sem julgamento. O teste e so um ponto de partida para perceber o que ja esta legal e o que pode melhorar.</p>
+                <span class="habit-doodle" aria-hidden="true">&#10022;</span>
+            </div>
+            <form class="habit-form" id="habit-form">
+                <fieldset class="question">
+                    <legend><span>01</span> Voce dorme pelo menos 7 horas por noite?</legend>
+                    <label><input type="radio" name="sleep" value="yes" required> Sim</label>
+                    <label><input type="radio" name="sleep" value="no"> Ainda nao</label>
+                </fieldset>
+                <fieldset class="question">
+                    <legend><span>02</span> Voce faz pausas durante os estudos?</legend>
+                    <label><input type="radio" name="breaks" value="yes" required> Sim</label>
+                    <label><input type="radio" name="breaks" value="no"> Ainda nao</label>
+                </fieldset>
+                <fieldset class="question">
+                    <legend><span>03</span> Voce pratica alguma atividade fisica?</legend>
+                    <label><input type="radio" name="movement" value="yes" required> Sim</label>
+                    <label><input type="radio" name="movement" value="no"> Ainda nao</label>
+                </fieldset>
+                <fieldset class="question">
+                    <legend><span>04</span> Voce evita o celular antes de dormir?</legend>
+                    <label><input type="radio" name="screen" value="yes" required> Sim</label>
+                    <label><input type="radio" name="screen" value="no"> Ainda nao</label>
+                </fieldset>
+                <button class="submit-button" type="submit">Ver meu resultado <span aria-hidden="true">&#8594;</span></button>
+                <p class="form-result" id="form-result" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="#inicio"><span class="brand-mark" aria-hidden="true">v.</span><span>vida de estudante</span></a>
+        <p>Cuide de voce. O resto se aprende pelo caminho.</p>
+        <a class="back-top" href="#inicio">Voltar ao inicio &#8593;</a>
+    </footer>
+</body>
+</html>
